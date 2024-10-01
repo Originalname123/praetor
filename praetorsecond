@@ -1,0 +1,559 @@
+{
+  "name": "Praetor",
+  "type": "class",
+  "data": {
+    "description": {
+      "value": "<p>The Praetor channels power from a corruption of sins, gaining unique abilities tied to their Cardinal Sin.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "levels": {
+      "1": {
+        "class_features": [
+          {
+            "name": "Cardinal Sin",
+            "level": 1,
+            "entries": [
+              "At 1st level, you choose a Cardinal Sin that has been your burden to bear and a source of strength: Lust, Gluttony, Wrath, Despair, Envy, Sloth, Greed, or Pride. Your choice grants you features at 1st level and again at 3rd, 7th, and 15th level. Your choice also determines your spell list and forbids a school of magic to be cast."
+            ]
+          },
+          {
+            "name": "Vice & Virtue",
+            "level": 1,
+            "entries": [
+              "At 1st level, your sins take on a physical form of your choosing. These manifestations are shards of potent power and intense emotions."
+            ]
+          }
+        ]
+      },
+      "2": {
+        "class_features": [
+          {
+            "name": "Spellcasting",
+            "level": 2,
+            "entries": [
+              "Starting at 2nd level, you gain the ability to cast spells. Your spellcasting ability for Praetor spells is Wisdom."
+            ]
+          },
+          {
+            "name": "Corruption",
+            "level": 2,
+            "entries": [
+              "Additionally at 2nd level, your source of magic holds great power and befouled corruption. Whenever you expend a spell slot to cast a spell of 1st-level or higher, you gain a corruption charge."
+            ]
+          }
+        ]
+      },
+      "3": {
+        "class_features": [
+          {
+            "name": "Cardinal Sin Feature",
+            "level": 3,
+            "entries": [
+              "You gain a feature based on your chosen Cardinal Sin at 3rd level."
+            ]
+          }
+        ]
+      },
+      "4": {
+        "class_features": [
+          {
+            "name": "Ability Score Improvement",
+            "level": 4,
+            "entries": [
+              "When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1."
+            ]
+          }
+        ]
+      },
+      "5": {
+        "class_features": [
+          {
+            "name": "Extra Attack",
+            "level": 5,
+            "entries": [
+              "Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn."
+            ]
+          }
+        ]
+      },
+      "6": {
+        "class_features": [
+          {
+            "name": "Martial Incarnum",
+            "level": 6,
+            "entries": [
+              "Starting at 6th level, before you make an attack with a weapon you are proficient with, you can choose to take a -5 penalty to the attack roll. If the attack hits, the next spell you cast that requires an action now only requires a bonus action to cast."
+            ]
+          }
+        ]
+      },
+      "7": {
+        "class_features": [
+          {
+            "name": "Cardinal Sin Feature",
+            "level": 7,
+            "entries": [
+              "You gain a feature based on your chosen Cardinal Sin at 7th level."
+            ]
+          }
+        ]
+      },
+      "8": {
+        "class_features": [
+          {
+            "name": "Ability Score Improvement",
+            "level": 8,
+            "entries": [
+              "When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1."
+            ]
+          }
+        ]
+      },
+      "9": {
+        "class_features": [
+          {
+            "name": "Profane Body",
+            "level": 9,
+            "entries": [
+              "At 9th level, the corruption that has permeated your body has made you resilient to curses. You are now immune to curses, your hitpoint maximum can no longer be reduced, and you are immune to being possessed against your will."
+            ]
+          }
+        ]
+      },
+      "10": {
+        "class_features": [
+          {
+            "name": "Impulse",
+            "level": 10,
+            "entries": [
+              "At 10th level, whenever you miss an attack, fail a saving throw, or are hit by an attack, as a reaction, you may expend a hit dice to add your Wisdom modifier to your failed roll or AC."
+            ]
+          }
+        ]
+      },
+      "11": {
+        "class_features": [
+          {
+            "name": "Fell Strike",
+            "level": 11,
+            "entries": [
+              "Beginning at 11th level, you now gain advantage on attack rolls against creatures suffering from a condition (such as grappled, paralyzed, or restrained)."
+            ]
+          }
+        ]
+      },
+      "12": {
+        "class_features": [
+          {
+            "name": "Ability Score Improvement",
+            "level": 12,
+            "entries": [
+              "When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1."
+            ]
+          }
+        ]
+      },
+      "14": {
+        "class_features": [
+          {
+            "name": "Dark Salvation",
+            "level": 14,
+            "entries": [
+              "Starting at 14th level, when your mind and body falters, your corruption will take its place, staving off oblivion. You can no longer be knocked unconscious when at 0 hit points. Upon three successes on death saving throws, you regain one hit point."
+            ]
+          }
+        ]
+      },
+      "15": {
+        "class_features": [
+          {
+            "name": "Cardinal Sin Feature",
+            "level": 15,
+            "entries": [
+              "You gain a feature based on your chosen Cardinal Sin at 15th level."
+            ]
+          }
+        ]
+      },
+      "16": {
+        "class_features": [
+          {
+            "name": "Ability Score Improvement",
+            "level": 16,
+            "entries": [
+              "When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1."
+            ]
+          }
+        ]
+      },
+      "18": {
+        "class_features": [
+          {
+            "name": "Final Judgement",
+            "level": 18,
+            "entries": [
+              "Upon reaching 18th level, your sins have led you toward eternal damnation or righteous absolution. You may choose between Damnation, which grants you the ability to cast a 6th-level spell without expending a spell slot once per long rest, or Absolution, which allows you to make three attacks when you take the Attack action."
+            ]
+          }
+        ]
+      },
+      "19": {
+        "class_features": [
+          {
+            "name": "Ability Score Improvement",
+            "level": 19,
+            "entries": [
+              "When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1."
+            ]
+          }
+        ]
+      },
+      "20": {
+        "class_features": [
+          {
+            "name": "Final Judgement Improvement",
+            "level": 20,
+            "entries": [
+              "At 20th level, you improve upon your Final Judgement. If you chose Damnation, you can now cast a 7th-level spell without expending a spell slot once per long rest. If you chose Absolution, you regain three hit dice whenever you roll initiative and have no hit dice remaining."
+            ]
+          }
+        ]
+      }
+    },
+    "proficiencies": {
+      "armor": ["All armor", "Shields"],
+      "weapons": ["Simple weapons", "Martial weapons"],
+      "tools": [],
+      "saving_throws": ["Strength", "Wisdom"],
+      "skills": {
+        "choose": 2,
+        "from": ["Acrobatics", "Arcana", "Athletics", "History", "Insight", "Investigation", "Religion", "Perception"]
+      }
+    },
+    "spellcasting": {
+      "cantrips_known": {
+        "1": 1,
+        "2": 2,
+        "3": 2,
+        "4": 3,
+        "5": 3,
+        "6": 3,
+        "7": 3,
+        "8": 3,
+        "9": 3,
+        "10": 4,
+        "11": 4,
+        "12": 4,
+        "13": 4,
+        "14": 4,
+        "15": 4,
+        "16": 4,
+        "17": 4,
+        "18": 4,
+        "19": 4,
+        "20": 4
+      },
+      "spells_known": {
+        "1": [
+          "Blade Ward",
+          "Booming Blade",
+          "Chill Touch",
+          "Green-Flame Blade",
+          "Absorb Elements",
+          "Armor of Agathys",
+          "Bane",
+          "Cause Fear"
+        ],
+        "2": [
+          "Aura of Frost",
+          "Blindness/Deafness",
+          "Blur",
+          "Borrowed Knowledge",
+          "Chromatic Blade",
+          "Cloud of Daggers",
+          "Darkness",
+          "Hold Person"
+        ],
+        "3": [
+          "Bestow Curse",
+          "Dispel Magic",
+          "Enemies Abound",
+          "Fear",
+          "Hypnotic Pattern",
+          "Incite Greed",
+          "Life Transference",
+          "Memento Mori"
+        ],
+        "4": [
+          "Banishment",
+          "Blight",
+          "Compulsion",
+          "Confusion",
+          "Dimension Door",
+          "Freedom of Movement",
+          "Greater Invisibility",
+          "Locate Creature"
+        ],
+        "5": [
+          "Antilife Shell",
+          "Circle of Power",
+          "Cloudkill",
+          "Contact Other Plane",
+          "Contagion",
+          "Dispel Evil and Good",
+          "Geas",
+          "Hallow"
+        ]
+      },
+      "spell_slots": {
+        "1st_level": 2,
+        "2nd_level": 3,
+        "3rd_level": 3,
+        "4th_level": 3,
+        "5th_level": 1
+      }
+    },
+    "resources": [
+      {
+        "name": "Corruption Charges",
+        "max": "@classLevel / 2",
+        "description": "Corruption Charges are gained when expending a spell slot and can be used to power various abilities of the Praetor."
+      }
+    ]
+  },
+  "subclasses": [
+    {
+      "name": "Lust",
+      "level": 1,
+      "entries": [
+        {
+          "name": "Temptation",
+          "level": 1,
+          "entries": [
+            "When lust becomes too much to bear at 1st level, you learn the Mind Sliver cantrip. Wisdom is your spellcasting ability for this cantrip."
+          ]
+        },
+        {
+          "name": "Heartbreaker",
+          "level": 3,
+          "entries": [
+            "Starting at 3rd level, the sin of lust has intermingled with your magic. Whenever you deal damage with a spell, it no longer breaks the charm condition on a creature."
+          ]
+        },
+        {
+          "name": "Paramour",
+          "level": 7,
+          "entries": [
+            "At 7th level, as a reaction, whenever you and a charmed creature can see each other and it begins to make an attack roll, ability check, or saving throw, you can give them advantage or disadvantage on that roll."
+          ]
+        },
+        {
+          "name": "Everlasting Desire",
+          "level": 15,
+          "entries": [
+            "Upon reaching 15th level, whenever a creature successfully saves against a spell that was corrupted by the Desire Feature, it must make that spell's saving throw again at the start of its next turn."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gluttony",
+      "entries": [
+        {
+          "name": "Craving",
+          "level": 1,
+          "entries": [
+            "When gluttony becomes too much to bear at 1st level, you learn the Ravenous Maw cantrip. Wisdom is your spellcasting ability for this cantrip."
+          ]
+        },
+        {
+          "name": "Feast",
+          "level": 3,
+          "entries": [
+            "At 3rd level, whenever a hostile creature within 30ft. of you is reduced to 0 hit points, you gain a number of temporary hit points equal to 1d6 plus your proficiency bonus."
+          ]
+        },
+        {
+          "name": "Starvation",
+          "level": 7,
+          "entries": [
+            "At 7th level, your insatiable appetite knows no limits. Whenever you cast a necromancy spell or use your Feast ability, you may expend a corruption charge to double the range of that spell or ability."
+          ]
+        },
+        {
+          "name": "Devour",
+          "level": 15,
+          "entries": [
+            "Starting at 15th level, whenever you deal damage with a spell or ability that has been corrupted by Starvation and a creature would be brought to an amount of hit points equal to your Praetor level or lower, they are now instantly slain."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Wrath",
+      "entries": [
+        {
+          "name": "Spark of Anger",
+          "level": 1,
+          "entries": [
+            "When wrath becomes too much to bear at 1st level, you learn the Fire Bolt cantrip. Wisdom is your spellcasting ability for this cantrip."
+          ]
+        },
+        {
+          "name": "Cascade",
+          "level": 3,
+          "entries": [
+            "At 3rd level, whenever you are about to roll damage, choose from fire, cold, acid, thunder, or lightning. If you roll the maximum amount on a damage die, you now add an additional 1d4 of the chosen damage type."
+          ]
+        },
+        {
+          "name": "Maelstrom",
+          "level": 7,
+          "entries": [
+            "At 7th level, whenever you trigger Cascade, you may forgo the damage die you'd gain to instead inflict an effect based on the damage type you chose. The target suffers additional effects based on the damage type."
+          ]
+        },
+        {
+          "name": "Calamity",
+          "level": 15,
+          "entries": [
+            "Upon reaching 15th level, whenever you cast an evocation spell, you may expend four corruption charges to corrupt it. The corrupted spell now ignores any resistances or immunities to the damage types dealt."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Despair",
+      "entries": [
+        {
+          "name": "Harbinger of Sorrow",
+          "level": 1,
+          "entries": [
+            "When despair becomes too much to bear at 1st level, you learn the Guidance cantrip. Wisdom is your spellcasting ability for this cantrip."
+          ]
+        },
+        {
+          "name": "Endsinger",
+          "level": 3,
+          "entries": [
+            "At 3rd level, your weapons and spells sing and foretell of the end. Once per turn, when you hit a creature with a weapon or spell attack, you can deal psychic damage equal to your Wisdom modifier plus your proficiency bonus to every creature of your choice within 5ft. of the original creature."
+          ]
+        },
+        {
+          "name": "Fatalism",
+          "level": 7,
+          "entries": [
+            "At 7th level, you've begun to preach to others the futility of struggling. Whenever a spell requires a saving throw or attack roll, you may expend three corruption charges to corrupt the spell with nihilism."
+          ]
+        },
+        {
+          "name": "Hollow",
+          "level": 15,
+          "entries": [
+            "Upon reaching 15th level, your eternal dread has numbed you to everything. Whenever you take damage, you may use your reaction to reduce that damage by half and gain resistance to all damage types until the end of that turn."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Envy",
+      "entries": [
+        {
+          "name": "Jealousy",
+          "level": 1,
+          "entries": [
+            "When envy becomes too much to bear at 1st level, you learn the Grudge's Mirror cantrip. Wisdom is your spellcasting ability for this cantrip."
+          ]
+        },
+        {
+          "name": "Ambition",
+          "level": 3,
+          "entries": [
+            "At 3rd level, whenever a creature within 15ft. of you has advantage and is successful on the roll, you gain Ambition. You can expend Ambition to grant yourself advantage on a similar roll."
+          ]
+        },
+        {
+          "name": "Resentment",
+          "level": 7,
+          "entries": [
+            "At 7th level, whenever you attack a creature, object, or area that has a spell that would be affected by dispel magic, you may expend corruption charges to dispel it."
+          ]
+        },
+        {
+          "name": "Obsession",
+          "level": 15,
+          "entries": [
+            "Upon reaching 15th level, whenever a creature you can see casts a spell, you can use your reaction to expend the required spell slot to copy that spell and cast it. The copied spell uses your spellcasting ability, and acts as if you had cast it normally."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sloth",
+      "entries": [
+        {
+          "name": "Indolent Master",
+          "level": 1,
+          "entries": [
+            "When sloth becomes too much to bear at 1st level, you learn the Murder cantrip. Wisdom is your spellcasting ability for this cantrip."
+          ]
+        },
+        {
+          "name": "Atrophy",
+          "level": 3,
+          "entries": [
+            "At 3rd level, your attacks are now leadened with enervation. Whenever you successfully damage a creature for the first time on a turn, you may expend a reaction, bonus action, or movement to prevent the creature from using that same action."
+          ]
+        },
+        {
+          "name": "Lull",
+          "level": 7,
+          "entries": [
+            "At 7th level, you learn the catnap spell and can cast it without expending a spell slot once per short or long rest. Additionally, you regain any expended uses of the Atrophy feature when targeted by this spell."
+          ]
+        },
+        {
+          "name": "Stagnation",
+          "level": 15,
+          "entries": [
+            "At 15th level, creatures affected by your Drowsy feature must make a Wisdom saving throw or be under the effects of the slow spell until the end of their next turn."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Greed",
+      "entries": [
+        {
+          "name": "Covet",
+          "level": 1,
+          "entries": [
+            "When greed becomes too much to bear at 1st level, you learn the Coin Shot cantrip. Wisdom is your spellcasting ability for this cantrip."
+          ]
+        },
+        {
+          "name": "Gilded Focus",
+          "level": 3,
+          "entries": [
+            "At 3rd level, your shrewd spirit and overwhelming greed have unlocked opulent forms of magic. You can now prepare transmutation spells from any spell list. Additionally, when casting a spell that requires a material component with a gold cost, you may use your gold as a substitute."
+          ]
+        },
+        {
+          "name": "Spread of Avarice",
+          "level": 7,
+          "entries": [
+            "At 7th level, whenever you cast a Transmutation spell, you may expend corruption charges to double the duration of the spell or target additional creatures."
+          ]
+        },
+        {
+          "name": "Midas Touch",
+          "level": 15,
+          "entries": [
+            "At 15th level, you learn the flesh to stone spell and may cast it once without expending a spell slot. Additionally, the creature is turned into gold (or any other precious metals and gems of your choice)."
+          ]
+        }
+      ]
+    }
+  ]
+}
