@@ -1,0 +1,155 @@
+{
+  "name": "Praetor",
+  "hit_dice": "1d10",
+  "hp_at_1st_level": "10 + your Constitution modifier",
+  "hp_at_higher_levels": "1d10 (or 6) + your Constitution modifier per praetor level after 1st",
+  "proficiencies": {
+    "armor": ["All armor", "Shields"],
+    "weapons": ["Simple weapons", "Martial weapons"],
+    "tools": [],
+    "saving_throws": ["Strength", "Wisdom"],
+    "skills": {
+      "choose": 2,
+      "from": ["Acrobatics", "Arcana", "Athletics", "History", "Insight", "Investigation", "Religion", "Perception"]
+    },
+    "languages": {
+      "choose": 1,
+      "from": ["Abyssal", "Deep Speech", "Celestial", "Infernal"]
+    }
+  },
+  "equipment": [
+    "(a) martial weapon and shield or (b) two martial weapons",
+    "(a) scale mail or (b) leather armor",
+    "(a) a light crossbow and 20 bolts or (b) five javelins",
+    "(a) a dungeoneer’s pack or (b) a priest's pack",
+    "A conduit strand representing the source of your corrupted magic"
+  ],
+  "class_features": [
+    {
+      "level": 1,
+      "name": "Cardinal Sin",
+      "description": "At 1st level, you choose a Cardinal Sin that grants features at 1st, 3rd, 7th, and 15th level..."
+    },
+    {
+      "level": 1,
+      "name": "Vice & Virtue",
+      "description": "At 1st level, your sins take on a physical form of your choosing, granting you vice and virtue effects..."
+    },
+    {
+      "level": 2,
+      "name": "Spellcasting",
+      "description": "Starting at 2nd level, you gain the ability to cast 1st level spells and higher..."
+    },
+    {
+      "level": 2,
+      "name": "Corruption",
+      "description": "Additionally at 2nd level, your source of magic holds great power and befouled corruption..."
+    },
+    {
+      "level": 5,
+      "name": "Extra Attack",
+      "description": "Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action..."
+    },
+    {
+      "level": 6,
+      "name": "Martial Incarnum",
+      "description": "Starting at 6th level, before you make an attack with a weapon you are proficient with, you can choose to take a -5 penalty to the attack roll..."
+    },
+    {
+      "level": 9,
+      "name": "Profane Body",
+      "description": "At 9th level, you become immune to curses and your hitpoint maximum can no longer be reduced..."
+    },
+    {
+      "level": 10,
+      "name": "Impulse",
+      "description": "At 10th level, whenever you miss an attack or fail a saving throw, you may expend a hit dice to add your Wisdom modifier to the roll..."
+    },
+    {
+      "level": 11,
+      "name": "Fell Strike",
+      "description": "Beginning at 11th level, you gain advantage on attack rolls against creatures suffering from a condition..."
+    },
+    {
+      "level": 14,
+      "name": "Dark Salvation",
+      "description": "Starting at 14th level, you can no longer be knocked unconscious when at 0 hit points..."
+    },
+    {
+      "level": 18,
+      "name": "Final Judgement",
+      "description": "At 18th level, choose either Damnation or Absolution, gaining a unique ability based on your choice..."
+    }
+  ],
+  "spellcasting": {
+    "ability": "Wisdom",
+    "spell_save_dc": "8 + your proficiency bonus + your Wisdom modifier",
+    "spell_attack_modifier": "your proficiency bonus + your Wisdom modifier",
+    "cantrips_known": [ 
+      // Add list of cantrips known here
+    ],
+    "spells_known": [
+      // Add list of known spells by level here
+    ],
+    "spell_slots": {
+      "1st_level": 2,
+      "2nd_level": 3,
+      "3rd_level": 3,
+      "4th_level": 3,
+      "5th_level": 1
+    }
+  },
+  "subclasses": [
+    {
+      "name": "Lust",
+      "features": [
+        {
+          "level": 1,
+          "name": "Temptation",
+          "description": "When lust becomes too much to bear, you learn the Mind Sliver cantrip..."
+        },
+        {
+          "level": 3,
+          "name": "Heartbreaker",
+          "description": "Starting at 3rd level, the sin of lust has intermingled with your magic..."
+        },
+        {
+          "level": 7,
+          "name": "Paramour",
+          "description": "At 7th level, as a reaction, you can influence a charmed creature's rolls..."
+        },
+        {
+          "level": 15,
+          "name": "Everlasting Desire",
+          "description": "At 15th level, creatures that resist your enchantment spells must make a second saving throw..."
+        }
+      ]
+    },
+    {
+      "name": "Gluttony",
+      "features": [
+        {
+          "level": 1,
+          "name": "Craving",
+          "description": "When gluttony becomes too much to bear, you learn the Ravenous Maw cantrip..."
+        },
+        {
+          "level": 3,
+          "name": "Feast",
+          "description": "At 3rd level, you gain temporary hit points when a creature within 30ft is reduced to 0 hit points..."
+        },
+        {
+          "level": 7,
+          "name": "Starvation",
+          "description": "At 7th level, you can double the range of necromancy spells or abilities..."
+        },
+        {
+          "level": 15,
+          "name": "Devour",
+          "description": "At 15th level, you can instantly slay creatures with low hit points using corrupted necromancy..."
+        }
+      ]
+    },
+    // Add other subclasses (Wrath, Despair, Envy, etc.)
+  ]
+}
